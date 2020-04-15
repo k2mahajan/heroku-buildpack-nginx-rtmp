@@ -7,7 +7,7 @@
 # exact machine in which the binary will run.
 
 NGINX_VERSION=nginx-1.14.0
-NGINX_RTMP_MODULE_VERSION=1.1.9
+NGINX_RTMP_MODULE_VERSION=1.2.1
 
 INSTALL_ROOT=$1
 
