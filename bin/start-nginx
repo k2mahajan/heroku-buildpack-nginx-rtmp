@@ -16,6 +16,6 @@ echo Port ${PORT}
 sed -i 's/PORT/'${PORT}'/g' config/nginx.conf
 cat config/nginx.conf| grep listen
 bin/nginx -p . -c config/nginx.conf &
-echo "buildpack=nginx at=exit"
+echo "buildpack=nginx at=nginx-started"
 
-exit 1
+exit 0
