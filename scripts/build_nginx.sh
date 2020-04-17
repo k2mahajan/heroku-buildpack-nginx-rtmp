@@ -6,7 +6,7 @@
 # We would like to build an NGINX binary for the buildpack on the
 # exact machine in which the binary will run.
 
-NGINX_VERSION=nginx-1.14.0
+NGINX_VERSION=nginx-1.17.10
 NGINX_RTMP_MODULE_VERSION=1.2.1
 
 INSTALL_ROOT=$1
