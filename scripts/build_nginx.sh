@@ -32,6 +32,7 @@ echo "Starting build..."
 	./configure \
 	    --with-http_ssl_module \
 	    --with-threads \
+	    --with-stream \
 	    --with-ipv6 \
 	    --prefix=${INSTALL_ROOT} \
 	    --add-module=/${temp_dir}/${NGINX_VERSION}/nginx-rtmp-module-${NGINX_RTMP_MODULE_VERSION} \
